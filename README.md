@@ -53,7 +53,7 @@
    download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip
    ```
 
-8. **Train the Model**  
+8.  **Train the Model**  
    In the `yolov5` directory, run the following command to start training:
    ```bash
    python train.py --img 640 --batch 16 --epochs 100 --data custom_data.yaml --weights yolov5s.pt --nosave --cache
@@ -61,7 +61,7 @@
 
    After training completes, a folder named `runs` and a `weights` folder will be created inside the `yolov5` directory, containing the results and model weights.
 
-9. **Run Detection**  
+9.  **Run Detection**  
    Use the trained model to perform detection on your test dataset:
    ```bash
    python detect.py --weights runs/train/exp/weights/last.pt --source ../../train_data/images
