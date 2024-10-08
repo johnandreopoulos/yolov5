@@ -9,8 +9,9 @@
    Install a labeling tool from the [YOLOv5 Labeling Guide](https://github.com/ultralytics/yolov5/wiki/Labeling) to annotate your dataset.
 
 3. **Clone the YOLOv5 Repository**  
-   After installing Anaconda, open a terminal and run the following command to clone the repository:
+   After installing Anaconda, open a terminal and run the following commands:
    ```bash
+   conda create -n yolov5 python=3.10
    git clone https://github.com/johnandreopoulos/yolov5
    ```
 
