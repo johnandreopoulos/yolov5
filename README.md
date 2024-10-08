@@ -12,14 +12,13 @@
    After installing Anaconda, open a terminal and run the following command:
    ```bash
    conda create -n yolov5 python=3.10
+   conda activate yolov5
    ```
-   ![cmd_ugwyutOp1P](https://github.com/user-attachments/assets/63f610b4-6c4c-48fc-823e-5916369d4c1e)
 
 4. **Clone the Repository**
    ```bash
    git clone johnandreopoulos/yolov5
    ```
-
 
 5. **Navigate to the Cloned Repository**  
    Move to the cloned repository directory:
