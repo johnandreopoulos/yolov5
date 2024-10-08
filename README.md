@@ -17,8 +17,6 @@
 
 4. **Clone the Repository**
    ```bash
-   git clone https://github.com/ultralytics/yolov5
-   ```bash
    git clone johnandreopoulos/yolov5
    ```
 
