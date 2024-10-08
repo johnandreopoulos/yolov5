@@ -8,8 +8,8 @@
 2. **Install Labeling Tool**  
    Install a labeling tool from the [YOLOv5 Labeling Guide](https://github.com/ultralytics/yolov5/wiki/Labeling) to annotate your dataset.
 
-3. **Clone the YOLOv5 Repository**
-   Open your terminal and run the following command to clone the repository:
+3. **Clone the YOLOv5 Repository**  
+   After installing Anaconda, open a terminal and run the following command to clone the repository:
    ```bash
    git clone https://github.com/johnandreopoulos/yolov5
    ```
@@ -20,7 +20,7 @@
    cd yolov5
    ```
 
-5. **Set Up YOLOv5 Environment**  
+5. **Set Up the YOLOv5 Environment**  
    Create and activate a new Python environment using Anaconda:
    ```bash
    git clone https://github.com/ultralytics/yolov5
@@ -31,7 +31,7 @@
    ```
 
 6. **Configure the Dataset**  
-   Edit the file `<project_root>/yolov5/data/custom.yaml` to match your dataset. For instance, if you are detecting faces, the configuration will look like this:
+   Edit the file `<project_root>/yolov5/data/custom.yaml` to match your dataset. For example, if you are detecting faces, the configuration will look like this:
    ```yaml
    train: ../../train_data/images/train/  # Path to training images
    val: ../../train_data/images/val/      # Path to validation images
@@ -61,6 +61,6 @@
    python detect.py --weights runs/train/exp/weights/last.pt --source ../../train_data/images
    ```
 
-   The detection results will be saved in a new directory called `runs/detect/expX`, where you can find the images with detected objects (e.g., "faces").
+   The detection results will be saved in a new directory called `runs/detect/expX`, where you can find images with detected objects (e.g., "faces").
 
-This setup will help you get started with YOLOv5 for object detection tasks efficiently.
+This setup guide will help you get started with YOLOv5 for object detection tasks efficiently.
