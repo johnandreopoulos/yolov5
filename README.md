@@ -1,6 +1,7 @@
 # YOLOv5 Face Detection Setup Guide
+> Step-by-Step Guide to Setting Up YOLOv5 for Face Detection
 
-## Step-by-Step Guide to Setting Up YOLOv5 for Face Detection
+![Banner](https://github.com/user-attachments/assets/754178a3-52ec-4682-9f0b-60b84eded75b)
 
 ### 1. **Install Anaconda**
    Download and install [Anaconda](https://www.anaconda.com/) to manage environments, dependencies, and packages efficiently.
