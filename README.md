@@ -66,8 +66,9 @@
 
 ### 9. **Run Object Detection Using the Trained Model**
    After training, you can run object detection on your test images with the following command:
+   - `<PATH_OF_TEST_FILE>` is the path of the picture/video file that you would like to detect the faces.
    ```bash
-   python detect.py --weights runs/train/exp/weights/last.pt --source ../../train_data/images
+   python detect.py --weights runs/train/exp/weights/last.pt --source <PATH_OF_TEST_FILE>
    ```
    The results will be saved in the `runs/detect/expX` directory, where you can review the detection output.
 
