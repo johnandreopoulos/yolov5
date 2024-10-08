@@ -1,5 +1,5 @@
 # YOLOv5 Object Detection Setup Guide
-> Step-by-Step Guide to Setting Up YOLOv5 for Face Detection
+> Step-by-Step Guide to Setting Up YOLOv5 for Object Detection
 
 ![Banner](https://github.com/user-attachments/assets/754178a3-52ec-4682-9f0b-60b84eded75b)
 
