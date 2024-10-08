@@ -3,12 +3,44 @@
 
 ![Banner](https://github.com/user-attachments/assets/754178a3-52ec-4682-9f0b-60b84eded75b)
 
+
+### How to Use Labelling
+1. **Install Labelling**  
+   Begin by installing the [LabelImg](https://github.com/HumanSignal/labelImg/releases) software.
+
+2. **Extract the Zip File**  
+   Unzip the downloaded file to your desired location.
+
+3. **Open Labelling Application**  
+   Locate and open the `labelImg.exe` file.
+
+4. **Open Image Directory**  
+   In the left sidebar, click on the **"Open Dir"** option. Navigate to and select the folder containing your images, e.g., `train_data/images/train`.  
+   ![Open Directory](https://github.com/user-attachments/assets/bed0d225-3284-461a-b079-091efd2ab152)
+
+5. **Set Save Directory**  
+   Before you begin labelling, click on **"Change Save Dir"** in the left sidebar. Set the path to `train_data/labels/train`.  
+   ![Change Save Directory](https://github.com/user-attachments/assets/ce4b4730-cd29-427f-bf52-08a5caa12ccd)
+
+6. **Labelling Process**  
+   For each image, follow these steps:
+   - **Create Rectangle**: Draw a rectangle around the object of interest.
+   - **Size the Rectangle**: Adjust the rectangle to fit the object properly.
+   - **Save**: Save your labelled data.
+
+   ![Labelling Process](https://github.com/user-attachments/assets/78170913-0930-4e94-b3a4-13724266420d)
+
+### Important Notes
+- Ensure all images are located in the `/train_data/images/train` folder.
+- Save all labelled text files in the `/train_data/labels/train` folder.
+
+--- 
+
+This structure makes the instructions clear and easy to follow while emphasizing important information.
+
+
 ### 1. **Install Anaconda**
    Download and install [Anaconda](https://www.anaconda.com/) to manage environments, dependencies, and packages efficiently.
-
-### 2. **Install a Labeling Tool (Optional)**
-   > [Note]
-   > If you already have a labeled dataset for face detection, this step can be skipped. However, if you need to label your own dataset, you can use a tool like [LabelImg](https://github.com/HumanSignal/labelImg/releases) to annotate the images.
 
 ### 3. **Create and Activate a Virtual Environment**
    Using Anaconda, create and activate a virtual environment for YOLOv5. Open a terminal and run the following commands:
