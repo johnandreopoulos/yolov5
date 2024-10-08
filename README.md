@@ -3,8 +3,24 @@
 
 ![Banner](https://github.com/user-attachments/assets/754178a3-52ec-4682-9f0b-60b84eded75b)
 
+## Table of Contents
+- [YOLOv5 Face Detection Setup Guide](#yolov5-face-detection-setup-guide)
+  - [Table of Contents](#table-of-contents)
+    - [1. **Install Anaconda**](#1-install-anaconda)
+    - [2. **Labelling** `No need for this project`](#2-labelling-no-need-for-this-project)
+    - [3. **Create and Activate a Virtual Environment**](#3-create-and-activate-a-virtual-environment)
+    - [4. **Clone the YOLOv5 Repository**](#4-clone-the-yolov5-repository)
+    - [5. **Navigate to the Cloned Repository**](#5-navigate-to-the-cloned-repository)
+    - [6. **Install Dependencies**](#6-install-dependencies)
+    - [7. **Configure the Dataset for Face Detection**](#7-configure-the-dataset-for-face-detection)
+    - [8. **Train the YOLOv5 Model**](#8-train-the-yolov5-model)
+    - [9. **Run Object Detection Using the Trained Model**](#9-run-object-detection-using-the-trained-model)
 
-### How to Use Labelling
+
+### 1. **Install Anaconda**
+   Download and install [Anaconda](https://www.anaconda.com/) to manage environments, dependencies, and packages efficiently.
+
+### 2. **Labelling** `No need for this project`
 1. **Install Labelling**  
    Begin by installing the [LabelImg](https://github.com/HumanSignal/labelImg/releases) software.
 
@@ -30,17 +46,12 @@
 
    ![Labelling Process](https://github.com/user-attachments/assets/78170913-0930-4e94-b3a4-13724266420d)
 
-### Important Notes
 - Ensure all images are located in the `/train_data/images/train` folder.
 - Save all labelled text files in the `/train_data/labels/train` folder.
 
 --- 
 
 This structure makes the instructions clear and easy to follow while emphasizing important information.
-
-
-### 1. **Install Anaconda**
-   Download and install [Anaconda](https://www.anaconda.com/) to manage environments, dependencies, and packages efficiently.
 
 ### 3. **Create and Activate a Virtual Environment**
    Using Anaconda, create and activate a virtual environment for YOLOv5. Open a terminal and run the following commands:
