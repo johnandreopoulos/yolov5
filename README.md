@@ -38,8 +38,13 @@ download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128
 ```
 
 6. Run the following command in the yolov5 folder and wait for it to finish.
-```python
+```bash
 python train.py --img 640 --batch 16 --epochs 100 --data custom_data.yaml --weights yolov5s.pt --nosave --cache
 ```
 
 After that, you should have a folder called "<b>runs</b>" in your yolov5 folder and a folder called "<b>weights</b>" in your yolov5 folder.
+```bash
+python detect.py --weights runs/train/exp/weights/last.pt --source ../../train_data/images
+```
+
+After the run, you should have a new folder called "<b>runs/detect/expX</b>" in your yolov5 folder which will show the detected "faces" in our case.
