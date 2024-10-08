@@ -42,4 +42,4 @@ download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128
 python train.py --img 640 --batch 16 --epochs 100 --data custom_data.yaml --weights yolov5s.pt --nosave --cache
 ```
 
-After that, you should have a folder called "runs" in your yolov5 folder and a folder called "weights" in your yolov5 folder.
+After that, you should have a folder called "<b>runs</b>" in your yolov5 folder and a folder called "<b>weights</b>" in your yolov5 folder.
