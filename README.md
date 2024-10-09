@@ -7,7 +7,7 @@
 - [YOLOv5 Object Detection Setup Guide](#yolov5-object-detection-setup-guide)
   - [Table of Contents](#table-of-contents)
     - [1. **Install Anaconda**](#1-install-anaconda)
-    - [2. **Labelling** `No need for this project`](#2-labelling-no-need-for-this-project)
+    - [2. **Labelling `No need for this project`**](#2-labelling-no-need-for-this-project)
     - [3. **Create and Activate a Virtual Environment**](#3-create-and-activate-a-virtual-environment)
     - [4. **Clone the YOLOv5 Repository**](#4-clone-the-yolov5-repository)
     - [7. **Configure the Dataset for Face Detection**](#7-configure-the-dataset-for-face-detection)
@@ -18,7 +18,10 @@
 ### 1. **Install Anaconda**
    Download and install [Anaconda](https://www.anaconda.com/) to manage environments, dependencies, and packages efficiently.
 
-### 2. **Labelling** `No need for this project`
+### 2. **Labelling `No need for this project`**
+<details>
+<summary>Click to expand instructions of labelling</summary>
+
 1. **Install Labelling**  
    Begin by installing the [LabelImg](https://github.com/HumanSignal/labelImg/releases) software.
 
@@ -46,18 +49,18 @@
 
 - Ensure all images are located in the `/train_data/images/train` folder.
 - Save all labelled text files in the `/train_data/labels/train` folder.
-
---- 
-
-This structure makes the instructions clear and easy to follow while emphasizing important information.
+</details>
 
 ### 3. **Create and Activate a Virtual Environment**
+<details>
+<summary>Click to expand instructions of creating and activating a virtual environment</summary>
    Using Anaconda, create and activate a virtual environment for YOLOv5. Open a terminal and run the following commands:
    ```bash
    conda create -n yolov5 python=3.10
    conda activate yolov5
    ```
    ![cmd_1PStphtame](https://github.com/user-attachments/assets/601bc4fc-ba2f-4a4e-9891-9f112119b7e2)
+</details>
 
 ### 4. **Clone the YOLOv5 Repository**
    Copy the following commands:
