@@ -96,6 +96,9 @@
    ```bash
    python train.py --img 640 --batch 16 --epochs 100 --data custom_data.yaml --weights yolov5s.pt --nosave --cache
    ```
+   <details>
+   <summary>Click to expand explanation of training parameters</summary>
+
    - **`--img 640`**: Use images resized to 640x640 pixels.
    - **`--batch 16`**: Train with 16 images at a time.
    - **`--epochs 100`**: Repeat the training process 100 times.
@@ -103,6 +106,8 @@
    - **`--weights yolov5s.pt`**: Start with pre-trained weights from the YOLOv5 small model.
    - **`--nosave`**: Do not save intermediate model checkpoints during training.
    - **`--cache`**: Load images into memory for faster training.
+
+   </details>
 
    After training, the model weights and results will be saved in the `runs/train/exp/weights` directory.
 
