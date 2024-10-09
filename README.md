@@ -4,14 +4,12 @@
 ![Banner](https://github.com/user-attachments/assets/754178a3-52ec-4682-9f0b-60b84eded75b)
 
 ## Table of Contents
-- [YOLOv5 Face Detection Setup Guide](#yolov5-face-detection-setup-guide)
+- [YOLOv5 Object Detection Setup Guide](#yolov5-object-detection-setup-guide)
   - [Table of Contents](#table-of-contents)
     - [1. **Install Anaconda**](#1-install-anaconda)
     - [2. **Labelling** `No need for this project`](#2-labelling-no-need-for-this-project)
     - [3. **Create and Activate a Virtual Environment**](#3-create-and-activate-a-virtual-environment)
     - [4. **Clone the YOLOv5 Repository**](#4-clone-the-yolov5-repository)
-    - [5. **Navigate to the Cloned Repository**](#5-navigate-to-the-cloned-repository)
-    - [6. **Install Dependencies**](#6-install-dependencies)
     - [7. **Configure the Dataset for Face Detection**](#7-configure-the-dataset-for-face-detection)
     - [8. **Train the YOLOv5 Model**](#8-train-the-yolov5-model)
     - [9. **Run Object Detection Using the Trained Model**](#9-run-object-detection-using-the-trained-model)
@@ -62,28 +60,16 @@ This structure makes the instructions clear and easy to follow while emphasizing
    ![cmd_1PStphtame](https://github.com/user-attachments/assets/601bc4fc-ba2f-4a4e-9891-9f112119b7e2)
 
 ### 4. **Clone the YOLOv5 Repository**
-   Clone the YOLOv5 repository to your local machine using the following command:
+   Copy the following commands:
    ```bash
    git clone https://github.com/johnandreopoulos/yolov5
-   ```
-   ![cmd_rA3CQlWpzn](https://github.com/user-attachments/assets/10412768-1b57-49a0-8597-fd90d78e3d78)
-
-### 5. **Navigate to the Cloned Repository**
-   After cloning the repository, navigate to the YOLOv5 directory:
-   ```bash
    cd yolov5
-   ```
-   ![cmd_TA5Oz2vGs1](https://github.com/user-attachments/assets/3e583a0b-071a-4782-b130-1244cbc1ba11)
-
-### 6. **Install Dependencies**
-   Clone the official YOLOv5 repository and install the required dependencies:
-   ```bash
    git clone https://github.com/ultralytics/yolov5
    cd yolov5
    pip install -r requirements.txt
    ```
    This ensures all the necessary libraries for YOLOv5 are properly installed.
-   ![cmd_Gv85QBvXKe](https://github.com/user-attachments/assets/fe697756-2fac-4ad1-a423-de61f2a81982)
+   
 
 ### 7. **Configure the Dataset for Face Detection**
    Prepare the dataset configuration file for your custom face detection dataset:
