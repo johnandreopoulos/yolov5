@@ -49,17 +49,20 @@
 
 - Ensure all images are located in the `/train_data/images/train` folder.
 - Save all labelled text files in the `/train_data/labels/train` folder.
+- 
 </details>
 
 ### 3. **Create and Activate a Virtual Environment**
 <details>
 <summary>Click to expand instructions of creating and activating a virtual environment</summary>
+
    Using Anaconda, create and activate a virtual environment for YOLOv5. Open a terminal and run the following commands:
    ```bash
    conda create -n yolov5 python=3.10
    conda activate yolov5
    ```
    ![cmd_1PStphtame](https://github.com/user-attachments/assets/601bc4fc-ba2f-4a4e-9891-9f112119b7e2)
+
 </details>
 
 ### 4. **Clone the YOLOv5 Repository**
