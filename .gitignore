@@ -1,4 +1,3 @@
 datasets/*
 train_data
-yolov5/data/*
-yolov5/runs/*
+yolov5
